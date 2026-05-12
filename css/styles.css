@@ -3523,6 +3523,10 @@ input[type="button"].btn--primary:focus {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.s-hero__content h3 span, .s-hero__content h3 b {
+    color: white;
+}
+
 .s-hero__content h3::after {
     display: block;
     content: "";
