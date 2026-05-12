@@ -2810,7 +2810,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .pgn__num:hover {
-    background: var(--color-gray-18);
+    background: var(--color-white);
     color: var(--color-white);
 }
 
@@ -3232,11 +3232,11 @@ input[type="button"].btn--primary:focus {
     height: var(--header-height);
     line-height: var(--header-height);
     padding: 0 1.6rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .s-header__nav a:hover, .s-header__nav a:focus {
-    color: white;
+    color: var(--color-2-lighter);
 }
 
 .s-header__nav .current a {
